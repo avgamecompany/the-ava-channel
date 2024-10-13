@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ערוץ אבה</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ערוץ אבה</h1>
+        <p>ברוכים הבאים לערוץ היוטיוב שלנו!</p>
+        <a href="https://www.youtube.com/@ava-i6w" target="_blank" class="button">בקרו בערוץ שלנו</a>
+    </header>
+    <main>
+        <section class="description">
+            <h2>עלינו</h2>
+            <p>בערוץ אבה אנו משתפים סרטונים מעניינים על נושאים שונים. הצטרפו אלינו למסע שלנו!</p>
+        </section>
+        <section>
+            <h2>הסרטון שלנו</h2>
+            <div class="featured-video">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/5-gvu4J9QL0" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>צור קשר</h2>
+            <form id="contact-form" action="https://formspree.io/f/xrbggeab" method="POST">
+                <input type="text" name="name" placeholder="שם מלא" required>
+                <input type="email" name="email" placeholder="אימייל" required>
+                <textarea name="message" placeholder="הודעה" required></textarea>
+                <button type="submit" class="button">שלח</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 ערוץ אבה. כל הזכויות שמורות.</p>
+    </footer>
+    <script src="play.js"></script>
+</body>
+</html>
